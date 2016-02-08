@@ -471,7 +471,7 @@ It will ask for your dapps' secret, amount and unique identifier. Then just send
 
 ```text
 curl -XPUT -H "Content-type: application/json" -d '{
-"recipientId": "58191895912485C",
+"recipientId": "58191895912485L",
 "message": "Hello, world!",
 "secret": "mysecret"
 }' 'http://localhost:7000/api/dapps/[dappid]/api/messages/add'
@@ -539,7 +539,7 @@ Here we run a SQL query to get a list of messages from the blockchain, using the
 To get a list of messages, send the following API request to your dapp:
 
 ```text
-curl -XGET 'http://localhost:7000/api/dapps/[dappid]/api/messages/list?recipientId=58191895912485C'
+curl -XGET 'http://localhost:7000/api/dapps/[dappid]/api/messages/list?recipientId=58191895912485L'
 ```
 
 Replacing **[dappid]** with your dapp's own unique identifier and **[recipientId]** with the recipient's address.
