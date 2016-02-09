@@ -200,7 +200,7 @@ sudo npm install -g lisk-cli
 After installation completes, check that **Lisk CLI** is installed correctly:
 
 ```text
-lisked-cli -h
+lisk-cli -h
 ```
 
 If successful **Lisk CLI** should yield the following output:
