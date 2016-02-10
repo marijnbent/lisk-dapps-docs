@@ -164,9 +164,9 @@ To start work on our dapp, we first need to install a **testnet** version of Lis
 On **Mac OS X** operating systems:
 
 ```text
-wget http://downloads.lisk.io/lisk/test/lisk-0.1.0-Darwin-x86_64.zip
-unzip lisk-0.1.0-Darwin-x86_64.zip
-cd lisk-0.1.0-Darwin-x86_64
+wget http://downloads.lisk.io/lisk/test/lisk-0.1.1-Darwin-x86_64.zip
+unzip lisk-0.1.1-Darwin-x86_64.zip
+cd lisk-0.1.1-Darwin-x86_64
 npm install --production
 ```
 
@@ -175,9 +175,9 @@ On **Linux** operating systems (or vagrant):
 **TIP:** If using vagrant, it is a good idea to change to the shared: `/vagrant` directory as described above. This way, you can easily access your dapp's files from within the host operating system.
 
 ```text
-wget http://downloads.lisk.io/lisk/test/lisk-0.1.0-Linux-x86_64.zip
-unzip lisk-0.1.0-Linux-x86_64.zip
-cd lisk-0.1.0-Linux-x86_64
+wget http://downloads.lisk.io/lisk/test/lisk-0.1.1-Linux-x86_64.zip
+unzip lisk-0.1.1-Linux-x86_64.zip
+cd lisk-0.1.1-Linux-x86_64
 npm install --production
 ```
 
