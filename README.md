@@ -8,27 +8,15 @@ Lisk is a decentralized application platform and crypto-currency, which offers a
 
 ## Lisk Dapps
 
-Lisk Dapps are blockchain based applications which operate on their own custom sidechain. Allowing developers to create decentralized applications which use LISK or BTC as an internal currency / token.
+Lisk Dapps are blockchain based decentralized applications which run on a custom sidechain. They are secured by a group of 101 master nodes elected by the dapp's owner, and operate using the same Delegated-proof-of-stake (DPOS) consensus mechanism as the parent Lisk network.
 
-Each Dapp has its own unique private sidechain which operates in synchronization with the Lisk block time and current block height.
+### Features
 
-Dapp sidechains are managed by a group of up to 101 master nodes, each of which have block generation enabled specifically for an individual dapp.
-
-The primary role of each master node is to process transactions and signify the validity of each block generated on the sidechain.
-
-The signing of blocks by a master node against a given Dapp is restricted by the Dapp owners. Whom approve individual Lisk accounts as master nodes, which then are allowed to forge on the Dapp’s sidechain.
-
-Sidechain consensus is maintained among the 101 master nodes using the same Delegated Proof-of-Stake (DPOS) method used to secure the Lisk blockchain. This allows individual master nodes to collect fees from each transaction as reward for securing the Dapp's sidechain.
-
-Users can move tokens (LISK or BTC) in and out of a dapp by making deposits or withdrawals to and from each dapp.
-
-Deposits and withdrawals are special Lisk based transactions that move your LISK funds from the main Lisk maincain to the sidechain, thus allowing its use within the dapp.
-
-Some example use cases:
-
-  * **Messaging Dapp** - Users send messages via a messaging dapp and pay transaction fees for each message sent to the dapp owner.
-  * **Decentralized Exchange** - Users deposit funds into a decentralized exchange dapp and pay order fees to the dapp owner.
-  * **Decentralized Torrent Tracker** - Users post new torrents files to a torrent tracking dapp and receive LISK as "thanks" for sharing the file.
+- Delegated-proof-of-stake (DPOS) consensus mechanism
+- Centralized and decentralized application storage options
+- Custom token issuance and exchange
+- LISK deposits / withdrawals
+- Sandboxed virtual machine
 
 ## Development
 
@@ -83,7 +71,7 @@ If the above rules are not adhered to, the sidechain will most likely fork, and 
 
 It is the responsibility of forgers to sign blocks for each sidechain.
 
-Forgers are approved by the owner of a dapp and each receive a portion of the transaction fees as a reward for securing the sidechain.
+Forgers are elected by the owner of a dapp and each receive a portion of the transaction fees as a reward for securing the sidechain.
 
 Each genesis block contains a basic list of forgers, but this can be altered at any given point.
 
