@@ -544,6 +544,6 @@ curl -XGET 'http://localhost:7000/api/dapps/[dappid]/api/messages/list?recipient
 
 Replacing **[dappid]** with your dapp's own unique identifier and **[recipientId]** with the recipient's address.
 
-This completes the backend of our Messaging dapp. The source code for this tutorial is available [here](https://github.com/lisk/lisk-messagingdapp).
+This completes the backend of our Messaging dapp. The source code for this tutorial is available [here](https://github.com/LiskHQ/lisk-messaging-dapp).
 
 In the [next tutorial](/documentation?i=lisk-dapps-docs/UserInterface), we describe how to create a frontend user interface for our Messaging dapp.
