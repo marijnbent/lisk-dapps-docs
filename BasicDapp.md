@@ -1,6 +1,6 @@
 # Creating a Basic Dapp
 
-Moving on to our next tutorial, let's create our first dapp using **Lisk CLI**, an automated tool for bootstrapping Lisks based decentralized applications.
+Moving on to our next tutorial, let's create our first dapp using **Lisk CLI**, an automated tool for bootstrapping Lisk based decentralized applications.
 
 ## GitHub Repository
 
