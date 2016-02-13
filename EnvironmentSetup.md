@@ -16,7 +16,7 @@ In order to install a suitable testnet environment that is isolated from the mai
 
 - Windows users can [Install Lisk (using Docker)](/documentation?i=lisk-docs/DockerInstall) as a virtual machine.
 
-- [Installing Lisk (from Source)](/documentation?i=lisk-docs/SourceInstall) is here a reference and is only intended for special circumstances.
+- [Installing Lisk (from Source)](/documentation?i=lisk-docs/SourceInstall) is here as a reference for core developers and is only intended for special circumstances.
 
 ## Lisk CLI
 
