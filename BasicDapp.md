@@ -22,7 +22,7 @@ Listing the directory contents using the `ls` command, should yield:
 app.js  blockchain.db  build  config.json  dapps  genesisBlock.json  logs.log  nodejs  node_modules  package.json  public  sqlite
 ```
 
-If not, then please change directory to it. For example, when using vagrant: `cd /vagrant/0.1.0`
+If not, then please change directory to it.
 
 Then enter the following command, to proceed with bootstrapping your dapp:
 
@@ -35,7 +35,7 @@ This command will ask you a few important questions:
 ```text
 ? Existing blockchain.db file will be replaced, are you sure?
 ? Enter secret of your testnet account
-? Update existing genesis block? (or create a new one)
+? Overwrite the existing genesis block?
 ? Enter DApp name
 ? Enter DApp description
 ? Enter Github clone url
@@ -53,9 +53,9 @@ Answering **yes** will replace the existing blockchain.db, the file in which you
 
 Enter a password of your choosing. **Important**: Keep a record of your password, otherwise you will need to regenerate the genesis block.
 
-* **Update existing genesis block? (or create a new one)**
+* **Overwrite the existing genesis block?**
 
-Answering yes will retain the existing genesis block, keeping delegates and previous dapps. **Important**: Answer **no** if this is the first time you have launched **lisk-cli** for a given dapp.
+Answering yes will overwrite the existing genesis block, including delegates and any previous dapps. **Important**: Answer **yes** if this is the first time you have launched **lisk-cli** for a given dapp.
 
 * **Enter DApp name**
 
@@ -86,7 +86,7 @@ Below is an example of how to create a test dapp using **Lisk CLI** with the cor
 ```text
 ? Existing blockchain.db file will be replaced, are you sure? Yes
 ? Enter secret of your testnet account ******
-? Update current genesis block? (or create a new one) No
+? Overwrite the existing genesis block? Yes
 ? Enter DApp name test
 ? Enter DApp decription test
 ? Enter Github clone url git@github.com:username/myFirstDapp.git
@@ -94,7 +94,7 @@ Generating unique genesis block...
 ? Enter public keys of dapp forgers - hex array, use ',' for separator (808c2a6e3bf0a8a6edd64356e98c8aab4daeacb4dc177a8a20a6442b40d1f0e0)
 Creating DApp genesis block
 Fetching Lisks DApp Toolkit
-Connecting local repository with remote repository
+Connecting local repository with origin
 Saving genesis blocks
 Updating config
 ? Add DApp to autolaunch Yes
