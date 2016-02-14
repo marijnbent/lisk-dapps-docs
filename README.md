@@ -22,8 +22,8 @@ Lisk Dapps are blockchain based decentralized applications which run on a custom
 
 Lisk Dapps are written using existing web technologies:
 
-  * Backend: **NodeJS/JavasScript**
-  * Frontend: **CSS3/HTML5/JavasScript**
+  * Backend: **NodeJS/JavaScript**
+  * Frontend: **CSS3/HTML5/JavaScript**
 
 Developers already familiar with these technologies, will quickly find their comfort zone, and can start building decentralized applications in very little time at all.
 
