@@ -2,7 +2,7 @@
 
 Requirements:
 
-* [Lisk Sandbox](https://github.com/LiskHQ/lisk-sandbox) - Version **1.0.3** and above.
+* [Lisk Sandbox](https://github.com/LiskHQ/lisk-sandbox) - Version **1.0.4** and above.
 
 **Important:** If you have installed the Lisk Sandbox module before (see **node_modules/lisk-sandbox**). Please check the version, it must be greater than or equal to 1.0.3. If you have an older version of Lisk sandbox, please run the following commands:
 
