@@ -22,7 +22,7 @@ Listing the directory contents using the `ls` command, should yield:
 app.js  blockchain.db  build  config.json  dapps  genesisBlock.json  logs.log  nodejs  node_modules  package.json  public  sqlite
 ```
 
-If not, then please change directory to it.
+If not, then please change to the Lisk client directory.
 
 Then enter the following command, to proceed with bootstrapping your dapp:
 
