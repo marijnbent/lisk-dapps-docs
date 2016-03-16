@@ -12,19 +12,18 @@ The repository can be **public** or **private**, depending on your preference.
 
 ## Unique Genesis Block
 
-Once we have created our GitHub repository, we can proceed to make a new unique genesis block, which we will use to test our dapp. To do so, open a command prompt then proceed with the following:
 
-**NOTE:** Please ensure you are within the root folder of your testnet installation.
-
-Listing the directory contents using the `ls` command, should yield:
+Let's go back to our terminal and list the content of your client folder we have installed previoulsy (for instance  in `lisk-client-0.1.1/`, your folder name can be different), and verify you have the following files:
 
 ```text
-app.js  blockchain.db  build  config.json  dapps  genesisBlock.json  logs.log  nodejs  node_modules  package.json  public  sqlite
+> cd lisk-client-0.1.1/
+> ls
+app.js  blockchain.db  build/  config.json  dapps/  genesisBlock.json  logs.log  nodejs/  node_modules/  package.json  public/  sqlite/
 ```
 
-If not, then please change to the Lisk client directory.
+We will generate a new dapp into the dapps/ directory using the command line `lisk-cli`. This will create a new unique genesis block, which we will use to test our dapp.
 
-Then enter the following command, to proceed with bootstrapping your dapp:
+To do so, enter the following command inside `lisk-client-0.1.1/`:
 
 ```text
 lisk-cli dapps -a
