@@ -517,7 +517,7 @@ Message.prototype.list = function (cb, query) {
 				alias: "tm",
 				on: {"t.id": "tm.transactionId"}
 			}]
-		}, ['id', 'type', 'senderId', 'senderPublicKey', 'recipientId', 'amount', 'fee', 'signature', 'blockId', 'transactionId', 'message'], function (err, transactions) {
+		}, ['id', 'type', 'senderId', 'senderPublicKey', 'recipientId', 'amount', 'fee', 'timestamp', 'signature', 'blockId', 'token', 'message', 'transactionId'], function (err, transactions) {
 			if (err) {
 				return cb(err.toString());
 			}
