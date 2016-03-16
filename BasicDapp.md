@@ -13,7 +13,7 @@ The repository can be **public** or **private**, depending on your preference.
 ## Unique Genesis Block
 
 
-Let's go back to our terminal and list the content of your client folder we have installed previoulsy (for instance  in `lisk-client-0.1.1/`, your folder name can be different), and verify you have the following files:
+Let's go back to our terminal and list the content of your client folder we have installed previously (for instance  in `lisk-client-0.1.1/`, your folder name can be different), and verify you have the following files:
 
 ```text
 > cd lisk-client-0.1.1/
