@@ -381,6 +381,12 @@ Open the **routes.json** file located within the root folder of our dapp. Then a
 },
 ```
 
+Open the **modules.full.json** file located within the root folder of our dapp. Then register your `Message` contract at the end of the file.
+
+```json
+"contracts/Message": "./modules/contracts/Message.js"
+```
+
 With our API routes now defined, let's complete the `add` function of our prototype, which will accept the following query parameters:
 
   * **secret** - The password of the sender's account.
