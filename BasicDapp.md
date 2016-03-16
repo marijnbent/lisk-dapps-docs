@@ -13,17 +13,17 @@ The repository can be **public** or **private**, depending on your preference.
 ## Unique Genesis Block
 
 
-Let's go back to our terminal and list the content of your client folder we have installed previously (for instance  in `lisk-client-0.1.1/`, your folder name can be different), and verify you have the following files:
+Let's go back to our terminal and list the content of your client folder we have installed previously (for instance  in `lisk-0.1.1-Linux-x86_64/`, your folder name can be different), and verify you have the following files:
 
 ```text
-> cd lisk-client-0.1.1/
+> cd lisk-0.1.1-Linux-x86_64/
 > ls
 app.js  blockchain.db  build/  config.json  dapps/  genesisBlock.json  logs.log  nodejs/  node_modules/  package.json  public/  sqlite/
 ```
 
 We will generate a new dapp into the dapps/ directory using the command line `lisk-cli`. This will create a new unique genesis block, which we will use to test our dapp.
 
-To do so, enter the following command inside `lisk-client-0.1.1/`:
+To do so, enter the following command inside `lisk-0.1.1-Linux-x86_64/`:
 
 ```text
 lisk-cli dapps -a
